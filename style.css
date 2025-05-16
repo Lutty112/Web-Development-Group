@@ -1,0 +1,158 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'TimeNew Roman', sans-serif;
+  line-height: 1.6;
+  color: #222;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background: lightgoldenrodyellow;
+  color: black;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+nav li {
+  list-style: none;
+}
+.hire-btn {
+  padding: 0.5rem 1rem;
+  background: darkgoldenrod;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  background:darkgoldenrod;
+  color: white;
+}
+.hero-text {
+  max-width: 50%;
+}
+.hero-img img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* About */
+.about {
+  display: flex;
+  padding: 3rem;
+  gap: 2rem;
+  align-items: center;
+  background: lightgoldenrodyellow;
+}
+.about img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+/* Services */
+.services {
+  background: lightgoldenrodyellow;
+  padding: 2rem;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.card {
+  background: darkgoldenrod;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 200px;
+}
+
+/* Skills */
+.skills
+{
+  background: white;
+  padding: 2rem;
+}
+
+.skills-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.bar {
+  width: 100%;
+  border-radius: 6px;
+  height: 10px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 10px;
+  background: linear-gradient(to right, darkgoldenrod);
+  border-radius: 6px 0 0 6px;
+}
+
+
+/* Stats */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background: darkgoldenrod;
+  padding: 2rem;
+}
+
+/* Portfolio */
+.portfolio {
+  padding: 2rem;
+  text-align: center;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background: darkgoldenrod;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
